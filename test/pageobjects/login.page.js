@@ -5,6 +5,10 @@ import Page from './page.js';
  * sub page containing specific selectors and methods for a specific page
  */
 class LoginPage extends Page {
+    // VARIABLES
+        standardUsername = "standard_user";
+        standardPassword = "secret_sauce";
+    
     /**
      * define selectors using getter methods
      */
